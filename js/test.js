@@ -18,3 +18,17 @@ else{
 for(let i=1;i<=5;i++){
     console.log("iteration no:"+i)
 }
+function squareNumber(num){
+    return num*num;
+}
+x=squareNumber(5);
+console.log("Square of 5 is :",x)
+function checkOddEven(num){
+    if (num%2==0){
+        return "Even";
+    }
+    else{
+        return "odd";
+    }
+}
+console.log("check if 7 is odd or even:",checkOddEven(7));
